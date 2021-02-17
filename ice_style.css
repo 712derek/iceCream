@@ -1,0 +1,10 @@
+.cone {
+  display: flex;
+  position: relative;
+}
+
+.scoop {
+  display: flex;
+  flex-direction: column-reverse;
+  position: absolute;
+}
