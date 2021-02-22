@@ -2,7 +2,7 @@
 function addCone() {
   var image = document.createElement("img");
   var div = document.querySelector("#cone");
-  image.src = "./img/cone.svg";
+  image.src = "./img/cone.png";
   div.appendChild(image);
   image.setAttribute("id", "cone");
 
@@ -15,7 +15,7 @@ function addCone() {
 function addCup() {
   var image = document.createElement("img");
   var div = document.querySelector("#cone");
-  image.src = "./img/cup.svg";
+  image.src = "./img/cup.png";
   div.appendChild(image);
   image.setAttribute("id", "cone");
 
@@ -37,7 +37,7 @@ function changeCone() {
 function addBo() {
   var image = document.createElement("img");
   var div = document.querySelector("#scoop");
-  image.src = "./img/bloodOrange.svg";
+  image.src = "./img/bloodOrange.png";
   div.appendChild(image);
   image.setAttribute("id", "scoop");
 
@@ -52,7 +52,7 @@ function addBo() {
 function addLe() {
   var image = document.createElement("img");
   var div = document.querySelector("#scoop");
-  image.src = "./img/lemon.svg";
+  image.src = "./img/lemon.png";
   div.appendChild(image);
   image.setAttribute("id", "scoop");
 
@@ -66,7 +66,7 @@ function addLe() {
 function addMa() {
   var image = document.createElement("img");
   var div = document.querySelector("#scoop");
-  image.src = "./img/mango.svg";
+  image.src = "./img/mango.png";
   div.appendChild(image);
   image.setAttribute("id", "scoop");
 
@@ -80,7 +80,7 @@ function addMa() {
 function addPa() {
   var image = document.createElement("img");
   var div = document.querySelector("#scoop");
-  image.src = "./img/passion.svg";
+  image.src = "./img/passion.png";
   div.appendChild(image);
   image.setAttribute("id", "scoop");
 
@@ -94,7 +94,7 @@ function addPa() {
 function addRa() {
   var image = document.createElement("img");
   var div = document.querySelector("#scoop");
-  image.src = "./img/raspberry.svg";
+  image.src = "./img/raspberry.png";
   div.appendChild(image);
   image.setAttribute("id", "scoop");
 

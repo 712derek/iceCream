@@ -1,10 +1,31 @@
+.body {
+  background: chocolate;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 10vw;
+
+  background-image: linear-gradient(
+    to left top,
+    #f9aaaa,
+    #ffbca3,
+    #ffd1a0,
+    #ffe8a6,
+    #f6ffb6
+  );
+}
+
 .cone {
   display: flex;
   position: relative;
+  justify-content: center;
 }
 
-.scoop {
+#scoop {
   display: flex;
   flex-direction: column-reverse;
-  position: absolute;
+  justify-content: center;
 }
